@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="editor"></div>
+    
+<script src="../src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.session.setMode("ace/mode/javascript");
+</script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

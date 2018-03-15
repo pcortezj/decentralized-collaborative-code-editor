@@ -1,0 +1,23 @@
+{
+  "name": "ipfs-yjs-demo",
+  "version": "0.0.1",
+  "description": "Yjs demo over IPFS",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/app.js -o public/js/app.js -d",
+    "start": "http-server -c-1 -p 12346 public"
+  },
+  "author": "Pa'tron Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "ipfs": "^0.25.2",
+    "y-array": "^10.1.4",
+    "y-ipfs-connector": "^1.2.1",
+    "y-memory": "^8.0.9",
+    "y-text": "^9.5.1",
+    "yjs": "^12.3.3"
+  },
+  "devDependencies": {}
+}
