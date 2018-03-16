@@ -7,4 +7,4 @@ Then run: npm start
 
 Open two windows (two nodes generated with math.random to create distinct ipfs hashes)
 
-start typing in either editor and the second will update using conflict-free replicated data types.
+start typing in either editor and the second will update. using conflict-free replicated data types, the node establish no authoritive user; allowing concurrent updates and can support offline use.
